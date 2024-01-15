@@ -30,6 +30,7 @@ class KmoocListViewController: UITableViewController {
             self.tableView.reloadData()
             self.tableView.refreshControl?.endRefreshing()
         }
+        
         viewModel.list()
     }
 
